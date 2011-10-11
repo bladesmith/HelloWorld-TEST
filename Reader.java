@@ -18,6 +18,11 @@ package ce.book.manager;
 
 import java.util.Hashtable;
 
+class Reader{
+	 public static void main(String args[]){
+		System.out.println("Hello, World!");
+	}
+}
 /**
  * Implementations of this interface can decode an image of a barcode in some format into
  * the String it encodes. For example, {@link ce.book.manager.qrcode.QRCodeReader} can
@@ -59,6 +64,7 @@ public interface Reader {
    * Resets any internal state the implementation has after a decode, to prepare it
    * for reuse.
    */
-  void reset();
-
+  void reset();  
+  
 }
+
